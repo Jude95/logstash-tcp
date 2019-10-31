@@ -26,5 +26,5 @@ output {
 
 # Usage
 ```
-docker run -d -p 4560:4560 jude95/logstash-tcp-es
+docker run -d -p 4560:4560 -e ELASTICSEARCH_HOST="xx.xx.xx.xx:8080" jude95/logstash-tcp-es
 ```
