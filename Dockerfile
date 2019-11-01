@@ -1,4 +1,4 @@
-FROM logstash:7.4.1
+FROM logstash:6.8.4
 
 RUN rm -f /usr/share/logstash/pipeline/logstash.conf
 ADD pipeline/ /usr/share/logstash/pipeline/
