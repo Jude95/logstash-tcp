@@ -7,3 +7,4 @@ ADD config/ /usr/share/logstash/config/
 EXPOSE 4560
 
 ENV ELASTICSEARCH_HOST="elasticsearch"
+ENV ELASTICSEARCH_PROTOCOL="http"

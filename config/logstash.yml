@@ -1,1 +1,1 @@
-xpack.monitoring.elasticsearch.hosts: http://${ELASTICSEARCH_HOST}
+xpack.monitoring.elasticsearch.hosts: ${ELASTICSEARCH_PROTOCOL}://${ELASTICSEARCH_HOST}
